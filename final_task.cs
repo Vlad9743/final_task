@@ -6,8 +6,9 @@ void PrintArray(string[] array) // функция для вывода масси
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write("'" + array[i] + "'   ");
+        Console.Write("'" + array[i] + "', ");
     }
+    Console.Write("\b\b");
     Console.WriteLine("]");
 }
 
